@@ -280,5 +280,51 @@ let colors = ["red", "yellow", "blue", "pink", "white", "green"];
 // console.log(start.splice(1,0,"june"));
 // console.log(start);
 
-let lang = ["c", "c++", "html", "javascript", "python", "java", "c#", "sql"];
-console.log(lang.reverse());
+// let lang = ["c", "c++", "html", "javascript", "python", "java", "c#", "sql"];
+// console.log(lang.reverse());
+
+
+//----------------tic-tac-toe-----------
+// let arr = [ ['X', null, 'O'], [null, 'X', null], ['O', null, 'X']]
+// console.log(arr);
+
+// --------WAP to get first and last n elements of an array--------
+// let num = [2,3,4,5];
+// let n = 3;
+// let ans = num.slice(0,n);
+// console.log(ans);
+
+// let ans = num.slice(num.length-n);
+// console.log(ans);
+
+// -------------------WAP to check whether a strng is blank or not-------------
+// let str = prompt("Enter the string here");
+// if(str.length == 0){
+//     console.log("Sting is blank");
+// }else{
+//     console.log("String is not blank");
+// }
+
+// ----------WAP to test wehther the character at the given(character) index is lower case.
+// let str = "bhuMikA";
+// let n = 2;
+// if(str[n] == str[n].toLowerCase()){
+//     console.log("character is in lowercase");
+// }else{
+//     console.log("character is not in lowercase");
+// }
+
+// -----------WAP to strip leading and trailing spaces from a string---------
+// let str = prompt("Enter the string");
+// let ans = str.trim();
+// console.log(ans);
+
+
+// --------------WAP to check if an element exist in an array or not-----
+let arr = [23, 45, 26, "apple", 42];
+let num = 22;
+if(arr.indexOf(num) == -1){
+    console.log("element doesn't exist in an array");  
+}else{
+    console.log("element exist in an array");
+}
