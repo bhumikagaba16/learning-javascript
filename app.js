@@ -71,9 +71,9 @@
 // }
 
 
-let sum = 50; // GLOBAL SCOPE
-function calcSum(a, b){
-    let sum = a + b; // function scope
-    console.log(sum);
-}
-// console.log(sum);
+// let sum = 50; // GLOBAL SCOPE
+// function calcSum(a, b){
+//     let sum = a + b; // function scope
+//     console.log(sum);
+// }
+// // console.log(sum);
